@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jquery - gallery</title>
+		<link rel="stylesheet" type="text/css" href="/css/common/reset.css" />
+		<link rel="stylesheet" type="text/css" href="/css/pages/index.gallery.css" />
+		<script src="/js/libs/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+
+
+			  <section>
+				<div class="gallery-container ">
+					<div aria-label="접근성 갤러리" role="group" class="gallery">
+						<div class="dotnav-wrap">
+							<div class="dotnav">
+								<ul role="tablist" class="dotnav-items">
+									<li role="presentation"><a href="#gallery-item-0" class="dotnav-item" role="tab" aria-controls="gallery-item-0" aria-selected="false" tabindex="-1"><span class="blind">스마트 HDR 1</span></a></li>
+									<li role="presentation"><a href="#gallery-item-1" class="dotnav-item current" role="tab" aria-controls="gallery-item-1" aria-selected="true" tabindex="0"><span class="blind">스마트 HDR 2</span></a></li>
+									<li role="presentation"><a href="#gallery-item-2" class="dotnav-item" role="tab" aria-controls="gallery-item-2" aria-selected="false" tabindex="-1"><span class="blind">스마트 HDR 3</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item-wrap">	
+							<div id="gallery-item-0" class="gallery-item" role="tabpanel" aria-hidden="true">
+								<figure role="img" aria-label="사진 1"></figure>
+							</div>
+							<div id="gallery-item-1" class="gallery-item current" role="tabpanel">
+								<figure role="img" aria-label="사진 2"></figure>
+							</div>
+							<div id="gallery-item-2" class="gallery-item" role="tabpanel" aria-hidden="true">
+								<figure role="img" aria-label="사진 3"></figure>
+							</div>
+						</div>
+						<div class="paddlenav-wrap">
+							<div class="paddlenav">
+								<ul>
+									<li><button aria-label="이전" class="paddlenav-arrow previous"></button></li>
+									<li><button aria-label="다음" class="paddlenav-arrow next"></button></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+
+
+		
+						
+	
+		</div>
+		<script src="/js/pages/index.gallery.js"></script>
+	</body>
+</html>
+

@@ -1,0 +1,70 @@
+@charset "utf-8"; 
+/* UI Object */
+.gallery {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;    
+}
+
+.gallery .item-wrap {
+    position: relative;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery .item-wrap .gallery-item {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 300px;
+}
+
+.paddlenav .paddlenav-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: block;
+    width: 40px;
+    background-color: rgba(1, 1, 1, .6);
+    cursor: pointer;
+}  
+
+.paddlenav .paddlenav-arrow:hover {
+    background-color: rgba(1, 1, 1, .2);
+}  
+
+.paddlenav .paddlenav-arrow.previous {
+    left: 0;
+}
+
+.paddlenav .paddlenav-arrow.next {
+    right: 0;
+}
+
+.autoplay {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
+
+.dotnav {
+    display: none;
+}
+
+#gallery-item-0 {
+    background-color: #999;
+}
+
+#gallery-item-1 {
+    background-color: #777;
+}
+
+#gallery-item-2 {
+    background-color: #555;   
+}

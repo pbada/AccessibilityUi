@@ -1,0 +1,28 @@
+@charset "utf-8"; 
+.className {
+  /*attr*/
+}
+
+@media only screen and (min-width: 1800px) {
+  .className {
+  /*attr*/
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .className {
+  /*attr*/
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .className {
+  /*attr*/
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .className {
+  /*attr*/
+  }
+}

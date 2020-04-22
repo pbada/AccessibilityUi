@@ -1,0 +1,156 @@
+{
+  "name": "AccessibilityUi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.13.4"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true,
+      "jquery": true
+    },
+    "rules": {
+      "strict": "off",
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "indent": [
+        "error",
+        2
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "brace-style": [
+        "error",
+        "1tbs"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "one-var": [
+        "error",
+        "never"
+      ],
+      "comma-style": [
+        "error",
+        "last"
+      ],
+      "curly": [
+        "error",
+        "all"
+      ],
+      "eqeqeq": [
+        "error",
+        "allow-null"
+      ],
+      "key-spacing": [
+        "error",
+        {
+          "beforeColon": false,
+          "afterColon": true
+        }
+      ],
+      "comma-spacing": [
+        "error",
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "space-before-blocks": [
+        "error",
+        "always"
+      ],
+      "space-in-parens": [
+        "error",
+        "never"
+      ],
+      "space-before-function-paren": [
+        "error",
+        "never"
+      ],
+      "no-trailing-spaces": "error",
+      "no-multi-spaces": [
+        "error",
+        {
+          "ignoreEOLComments": true
+        }
+      ],
+      "keyword-spacing": [
+        "error",
+        {
+          "before": true,
+          "after": true
+        }
+      ],
+      "padded-blocks": [
+        "error",
+        "never"
+      ]
+    }
+  },
+  "eslintIgnore": [
+    "node_modules/**/*",
+    "src/scripts/plugins/**/*",
+    "src/scripts/libs/**/*",
+    "src/scripts/pages/order/bxslider.js",
+    "public/**/*",
+    "*.min.js"
+  ],
+  "htmlhint": {
+    "tagname-lowercase": true,
+    "attr-lowercase": [
+      "viewBox"
+    ],
+    "attr-value-double-quotes": true,
+    "attr-value-not-empty": false,
+    "attr-no-duplication": true,
+    "doctype-first": true,
+    "tag-pair": true,
+    "tag-self-close": false,
+    "spec-char-escape": true,
+    "id-unique": false,
+    "src-not-empty": true,
+    "title-require": true,
+    "head-script-disabled": false,
+    "alt-require": true,
+    "doctype-html5": true,
+    "id-class-value": false,
+    "style-disabled": false,
+    "inline-script-disabled": false,
+    "inline-style-disabled": false,
+    "space-tab-mixed-disabled": "space",
+    "id-class-ad-disabled": true,
+    "href-abs-or-rel": false,
+    "attr-unsafe-chars": true
+  },
+  "htmlBeautify": {
+    "end_with_newline": true,
+    "unformatted": true,
+    "preserve_newlines": true,
+    "max_preserve_newlines": 0,
+    "indent_inner_html": true,
+    "extra_liners": [],
+    "indent_size": 2,
+    "brace_style": "collapse",
+    "wrap_line_length": 100
+  }
+}

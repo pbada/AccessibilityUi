@@ -18,5 +18,5 @@ $ node serve.js # 개발모드 웹 서버 실행
     * images - UI image 파일
     * js - 자바스크립트 파일
     * css - css 파일
-* **router** - HTML 라우팅 설정 (URL구성 설정)
+* **router** - HTML 라우팅 설정(URL구성 설정)
 * **views** - HTML 파일
